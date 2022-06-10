@@ -1,0 +1,29 @@
+@charset "utf-8";
+p {
+	color: green;
+	font-family: "Lucida Console", "Courier New", monospace;
+	font-size: 16px;
+	line-height: 18px;
+	width: 600px;
+	background-color: antiquewhite;
+	padding: 20px;
+}
+h1, h2 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: cadetblue;
+}
+span {
+	color: red;
+}
+body{
+	background-image: url("slike/slika4.jpg");
+}
+a {
+  color: red;
+}
+a:hover {
+color: white;
+}
+img {
+	height: 200px;
+}
