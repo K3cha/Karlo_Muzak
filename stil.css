@@ -1,29 +1,36 @@
 @charset "utf-8";
-p {
-	color: green;
-	font-family: "Lucida Console", "Courier New", monospace;
-	font-size: 16px;
-	line-height: 18px;
-	width: 600px;
-	background-color: antiquewhite;
-	padding: 20px;
+body {  
+margin-top: 20px;  
+padding: 30px;  
+background-color: #fbeec1;
+}  
+header {  
+background-color: #303234;  
+position: fixed;  
+left: 0;  
+right: 0;  
+top: 0;  
+height: 30px;  
+display: flex;  
+align-items: center;  
+}  
+header * {  
+display: inline;  
+}  
+header li {  
+margin: 50px;  
+}  
+header li a {  
+color: #FFFFFF;  
+text-decoration: none;  
+}  
+header li a:hover {
+color: #FF0000;
+}
+.pozadina {
+	color: #FF0000;
+	background-image: url('SV/slike/slika1.jpg');
 }
 h1, h2 {
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-	color: cadetblue;
-}
-span {
-	color: red;
-}
-body{
-	background-image: url("slike/slika4.jpg");
-}
-a {
-  color: red;
-}
-a:hover {
-color: white;
-}
-img {
-	height: 200px;
+	color: #333333;
 }
